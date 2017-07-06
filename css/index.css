@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../img/bg.png");
+    background-repeat:no-repeat ;
+    background-position-y: 90px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-family:"微软雅黑" ;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.header{
+    width: 1000px;
+    margin: 0 auto;
+    height: 90px;
+    line-height: 90px;
+}
+
+.header-box{
+    width: 33.333%;
+    height: 90px;
+    float: left;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-center{
+    text-align: center;
+}
+
+.header-right{
+    text-align: right;
+}
+
+.nav-wrapper{
+    height:50px;
+    margin: 0 auto;
+}
+
+#banner{
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.nav{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav a{
+    color: #fff;
+}
+
+.nav li{
+    float: left;
+    line-height: 50px;
+    margin-right: 178px;
+}
+
+#navlast{
+    margin-right: 0;
+}
+
+#shouye a{
+    color: #fec003;
+}
+
+.icons{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.icons li{
+    float: left;
+    margin-right: 169px;
+    text-align: center;
+}
+.icons img{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#iconlast{
+    margin-right: 0;
+}
+
+.icons h2{
+    font-size: 24px;
+    font-family:"黑体" ;
+    margin-bottom: 10px;
+}
+
+.icons h3{
+    font-size: 16px;
+    font-family:"微软雅黑" ;
+    color: #666666;
+    line-height: 1.3;
+    margin-bottom: 70px;
+}
+
+.easy{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.easy h2{
+    font-size: 40px;
+    font-family:"微软雅黑" ;
+    font-weight: 100;
+}
+
+.easy-step{
+    margin: 35px 0 18px;
+}
+
+#product{
+    width: 1920px;
+    height: 400px;
+    background: url("../img/product-bg.png");
+    margin-top: -105px;
+
+}
+.product-box{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.product-content{
+    position: absolute;
+    top:180px;
+    left: 387px;
+}
+.product-content h2,.condition-content h2,.support-content h2{
+    font-size: 40px;
+    font-family:"微软雅黑" ;
+    margin-bottom: 24px;
+}
+.product-content h3,.condition-content h3{
+    font-size: 16px;
+    font-family:"微软雅黑" ;
+    color: #666;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.condition{
+    width: 1000px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.condition-content{
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 85px;
+}
+
+.condition img{
+    float: right;
+    margin-top: 63px;
+}
+
+#support{
+    width: 1920px;
+    height: 468px;
+    background: url("../img/support.png");
+}
+.support-content{
+    height: 468px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.support-content h2{
+    color: #fef501;
+    padding-top: 97px;
+    padding-bottom:70px ;
+    margin: 0 auto;
+}
+
+.support-content img{
+    float: left;
+}
+
+.support-middle{
+    margin:0 47px;
+}
+
+.apply{
+    width: 1202px;
+    height: 270px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+.imgleft{
+    margin-right: 55px;
+}
+
+#footer{
+    width: 1920px;
+    height: 122px;
+    background: url("../img/footerbg.png") repeat-x;
+}
+.footer-content{
+    width: 410px;
+    margin: 0 auto;
+    padding-top: 48px;
+}
+.footer-content h5{
+    font-size: 12px;
+    color: #7c7f82;
+    text-align: center;
+    line-height:1.5;
+    float: left;
+}
+
+.footer-content img{
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+}
